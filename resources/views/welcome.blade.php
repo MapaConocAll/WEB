@@ -29,16 +29,22 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand" href="#">Hidden brand</a>
+                        <a class="navbar-brand" href="#">Facturacion</a>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">Vision Mision</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                <a class="nav-link " href="#" tabindex="-1" >Politica de calidad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Facturacion electronica</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Servicios y contacto</a>
                             </li>
                         </ul>
                         <form class="d-flex">
@@ -85,8 +91,12 @@
                 </button>
             </div>
 
-
+            <footer class="footer mt-auto py-3 bg-light">
+                <div class="container">
+                    <span class="text-muted">Place sticky footer content here.</span>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
-Inicio - Vision Mision - Plotica de calidad - Facturacion electronica - servicios y contacto
+
