@@ -22,7 +22,8 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="container">
+        <div class="container-fluid">
+
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +42,7 @@
                                 <a class="nav-link " href="#" tabindex="-1" >Politica de calidad</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Facturacion electronica</a>
+                                <a class="nav-link" href="http://factureya.blikon.com/CFDI33FP/Presentacion/Usuario/Ingreso.aspx">Facturacion electronica</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Servicios y contacto</a>
@@ -56,39 +57,66 @@
             </nav>
 
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <div class="col-lg-10 ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{URL::asset('/img-c/AsesoriaContable.jpg')}}" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{URL::asset('/img-c/declaracion_anual.jpg')}}" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{URL::asset('/img-c/estados_financieros.jpg')}}" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{URL::asset('/img-c/factura.jpg')}}" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{URL::asset('/img-c/nomina.jpg')}}" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{URL::asset('/img-c/AsesoriaContable.jpg')}}" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="{{URL::asset('/img-c/declaracion_anual.jpg')}}" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="{{URL::asset('/img-c/estados_financieros.jpg')}}" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="{{URL::asset('/img-c/factura.jpg')}}" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="{{URL::asset('/img-c/nomina.jpg')}}" class="d-block w-100" alt="...">
+            </div>
+
+
+
+            {{--Mision and vision --}}
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Mision</h2>
+                        <p>Nuestra misión es ofrecer servicios de calidad y profesional en tiempo y forma, cumpliendo con el marco legal que exige el Servicio de Administración Tributaria – SAT.
+                            Para lograr nuestros objetivos contamos con los recursos tecnológicos de vanguardia y aplicando las mejores estrategias administrativas.
+                        </p>
+                        <button class="btn btn-outline-light" type="button">Example button</button>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Vision</h2>
+                        <p>Nuestra visión como despacho contable es, ser uno de los mejores despachos de contadores Públicos en México
+                            de Calidad y mejora continua, facilitando el cumplimiento de obligaciones fiscales para las personas morales
+                            y fiscas en el país. Contamos con estándares de calidad y seguridad de la información.
+                        </p>
+                        <button class="btn btn-outline-secondary" type="button">Example button</button>
+                    </div>
+                </div>
             </div>
 
             <footer class="footer mt-auto py-3 bg-light">
@@ -96,6 +124,7 @@
                     <span class="text-muted">Place sticky footer content here.</span>
                 </div>
             </footer>
+
         </div>
     </body>
 </html>
