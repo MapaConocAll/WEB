@@ -119,6 +119,16 @@
                 </div>
             </div>
 
+
+            {{--Politica --}}
+            <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                <div class="col-md-6 px-0">
+                    <h1 class="display-4 fst-italic">Política de calidad </h1>
+                    <p class="lead my-3"> Despacho Contable Gómez y Asociados buscamos en todo momento mantener una sana relación y con principios éticos y morales con todos nuestros clientes, para nosotros es de vital importancia satisfacer las necesidades de todos nuestros clientes con la mas alta calidad para cumplir con sus compromisos, así como estar al corriente con todas sus obligaciones fiscales requeridos por el Sistema de Administración Tributaria, SAT.</p>
+
+                </div>
+            </div>
+
             <footer class="footer mt-auto py-3 bg-light">
                 <div class="container">
                     <span class="text-muted">Place sticky footer content here.</span>
