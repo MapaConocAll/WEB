@@ -125,9 +125,88 @@
                 <div class="col-md-6 px-0">
                     <h1 class="display-4 fst-italic">Política de calidad </h1>
                     <p class="lead my-3"> Despacho Contable Gómez y Asociados buscamos en todo momento mantener una sana relación y con principios éticos y morales con todos nuestros clientes, para nosotros es de vital importancia satisfacer las necesidades de todos nuestros clientes con la mas alta calidad para cumplir con sus compromisos, así como estar al corriente con todas sus obligaciones fiscales requeridos por el Sistema de Administración Tributaria, SAT.</p>
-
                 </div>
             </div>
+                {{--Items--}}
+            <h1>Principios</h1>
+            <div class="row">
+            <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                <div class="position-relative">
+                    <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+                    <p>Satisfacer las necesidades de nuestros clientes, de acuerdo a la ley fiscal. </p>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                <div class="position-relative">
+                    <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+                    <p>Estamos en constante actualización para ofrecerle un servicio de calidad.</p>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                <div class="position-relative">
+                    <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+                    <p>Comprometidos con el trabajo en equipo.</p>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                <div class="position-relative">
+                    <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+                    <p>Ofrecer servicios favorables con apego a resultados.</p>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                <div class="position-relative">
+                    <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+                    <p>Mejora continua.</p>
+                </div>
+            </div>
+            </div>
+        {{--Valores--}}
+            <div class="row">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
 
             <footer class="footer mt-auto py-3 bg-light">
                 <div class="container">
