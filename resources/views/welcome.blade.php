@@ -163,7 +163,7 @@
             </div>
         {{--Valores--}}
 
-            <h1>Valores</h1>
+            <h1>Para alcanzar nuestros los objetivos, fomentamos valores como:</h1>
             <div class="row">
 
                 <div class="card" style="width: 18rem;">
@@ -209,6 +209,8 @@
 
             </div>
 
+            {{--Tipos de comprobantes start --}}
+
             <div class="text-center">
                 <h1 class="h1">A través de nuestro sistema en línea,
                     podrás generar estos tipos de comprobantes (CFDI's):
@@ -224,9 +226,126 @@
                 </ul>
 
             </div>
+            <div class="text-center">
+                <h1 class="h1">Además
+                </h1>
+            </div>
+            <div class="row">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Contamos con personal calificado y capacidad para llevarte de la mano y cumplir con tus obligaciones fiscales</li>
+                    <li class="list-group-item">Proporcionamos asesoría fiscal y financiera </li>
+                    <li class="list-group-item">Brindamos asesoría fiscal oportuna para cumplir fiscalmente en tiempo y forma.</li>
+                    <li class="list-group-item">Brindamos asesoría en presentación de declaraciones. </li>
+                </ul>
+
+            </div>
+            {{--Tipos de comprobantes end --}}
+
+
+            {{--Paquetes --}}
+            <div class="text-center">
+                <h1 class="h1">Genera fácilmente comprobantes fiscales digitales (CFDI's)
+                    cumpliendo con las disposiciones vigentes del SAT
+                </h1>
+            </div>
+
+                {{--seccion de planes --}}
+            <section id="pricing" class="pricing">
+            <div data-aos="fade-up">
+
+            <header class="section-header">
+                <h2>Pricing</h2>
+                <p>Check our Pricing</p>
+            </header>
+
+            <div class="row gy-4" data-aos="fade-left">
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Free Plan</h3>
+                        <div class="price"><sup>$</sup>0<span> / mo</span></div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Aida dere</li>
+                            <li>Nec feugiat nisl</li>
+                            <li>Nulla at volutpat dola</li>
+                            <li class="na">Pharetra massa</li>
+                            <li class="na">Massa ultricies mi</li>
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="box">
+                        <span class="featured">Featured</span>
+                        <h3 style="color: #65c600;">Starter Plan</h3>
+                        <div class="price"><sup>$</sup>19<span> / mo</span></div>
+                        <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Aida dere</li>
+                            <li>Nec feugiat nisl</li>
+                            <li>Nulla at volutpat dola</li>
+                            <li>Pharetra massa</li>
+                            <li class="na">Massa ultricies mi</li>
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+            {{--Termina seccion de planes --}}
+
+
+
+            {{--Inicia modal de contacto--}}
+
+        <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            {{--termina modal de contacto--}}
+
+
             <footer class="footer mt-auto py-3 bg-light">
-                <div class="container">
-                    <span class="text-muted">Place sticky footer content here.</span>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="row">
+                            <img src="{{URL::asset('/img-logos/logo5.jpg')}}" class="rounded mx-auto d-block" alt="..." style="width: 150px; height:auto;">
+                        </div>
+
+                        <div class="row">
+
+                        </div>
+
+                        <div class="row">
+
+                        </div>
+                    </div>
                 </div>
             </footer>
 
