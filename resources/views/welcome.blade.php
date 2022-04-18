@@ -8,7 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link href="{{ asset(mix('css/app.css')) }}" rel="stylesheet">
+        <link href="{{asset('css/main.css')}}">
+        <link href="{{ asset('/css/app.css')}}" rel="stylesheet">
         <script src="{{ asset(mix('js/app.js')) }}"></script>
         <!-- Styles -->
         <style>
@@ -262,15 +263,12 @@
 
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box">
-                        <h3 style="color: #07d5c0;">Free Plan</h3>
-                        <div class="price"><sup>$</sup>0<span> / mo</span></div>
+                        <h3 style="color: #07d5c0;">Plan 25</h3>
+                        <div class="price"><sup>$</sup>490</div>
                         <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
+                            <li>Paquete de 25 créditos</li>
+
                         </ul>
                         <a href="#" class="btn-buy">Buy Now</a>
                     </div>
@@ -308,15 +306,47 @@
 
             <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <h5 class="modal-title" id="staticBackdropLabel">Contacto</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
-                        </div>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                    Asesoría contable y fiscal
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action">Contabilidad electrónica</a>
+                                <a href="#" class="list-group-item list-group-item-action">Facturación electrónica versión 3.3 y versión 4.0</a>
+                                <a href="#" class="list-group-item list-group-item-action">Asesoría Técnica y fiscal sobre la emisión del nuevo complemento Carta Porte</a>
+                                <a href="#" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">Tramite Digitales ante las instituciones Gubernamentales:  SAT, IMSS, INFONAVIT, etc</a>
+                                <a href="#" class="list-group-item list-group-item-action">Cálculo de impuestos</a>
+                                <a href="#" class="list-group-item list-group-item-action">Asesoría para el cumplimiento de obligaciones fiscales y legales</a>
+                                <a href="#" class="list-group-item list-group-item-action">Elaboración de Estados Financieros e Información Financiera</a>
+                                <a href="#" class="list-group-item list-group-item-action">Cálculo de nómina y 3% sobre nómina</a>
+                                <a href="#" class="list-group-item list-group-item-action">Cálculo de IMSS, SUA, SIPARE, e INFONAVIT</a>
+                            </div>
+
+                            {{--Starts of form --}}
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" class="btn btn-primary">Understood</button>
@@ -350,6 +380,7 @@
             </footer>
 
         </div>
+            </div>
     </body>
 </html>
 
