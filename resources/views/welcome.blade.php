@@ -23,17 +23,17 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="container-fluid">
+        <div class="container-fluid  col-lg-12 init">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid ">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <a class="navbar-brand" href="#">Facturacion</a>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item ">
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
@@ -46,19 +46,15 @@
                                 <a class="nav-link" href="http://factureya.blikon.com/CFDI33FP/Presentacion/Usuario/Ingreso.aspx">Facturacion electronica</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Servicios y contacto</a>
+                                <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Servicios y contacto</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </nav>
 
 
-            <div class="col-lg-10 ">
+            <div class="col-lg-10 col-auto secu">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -260,7 +256,7 @@
             </header>
 
             <div class="row gy-4" data-aos="fade-left">
-
+                {{--Pla #1 --}}
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box">
                         <h3 style="color: #07d5c0;">Plan 25</h3>
@@ -273,23 +269,115 @@
                         <a href="#" class="btn-buy">Buy Now</a>
                     </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                {{--Pla #2 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box">
-                        <span class="featured">Featured</span>
-                        <h3 style="color: #65c600;">Starter Plan</h3>
-                        <div class="price"><sup>$</sup>19<span> / mo</span></div>
-                        <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+                        <h3 style="color: #07d5c0;">Plan 50</h3>
+                        <div class="price"><sup>$</sup>590</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
+                            <li>Paquete de 50 créditos</li>
+
                         </ul>
                         <a href="#" class="btn-buy">Buy Now</a>
                     </div>
                 </div>
+                {{--Pla #3 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Plan 100</h3>
+                        <div class="price"><sup>$</sup>1080</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Paquete de 100 créditos</li>
+
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+                {{--Pla #4 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Plan 300</h3>
+                        <div class="price"><sup>$</sup>1650</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Paquete de 300 créditos</li>
+
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+                {{--Pla #5 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Plan 500</h3>
+                        <div class="price"><sup>$</sup>1950</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Paquete de 500 créditos</li>
+
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+                {{--Pla #6 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Plan 1000</h3>
+                        <div class="price"><sup>$</sup>3150</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Paquete de 1000 créditos</li>
+
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+                {{--Pla #7 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Plan 2500</h3>
+                        <div class="price"><sup>$</sup>6150</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Paquete de 2500 créditos</li>
+
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+                {{--Pla #8 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Plan 5000</h3>
+                        <div class="price"><sup>$</sup>10650</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Paquete de 5000 créditos</li>
+
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+                {{--Pla #9 --}}
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="box">
+                        <h3 style="color: #07d5c0;">Plan 10000</h3>
+                        <div class="price"><sup>$</sup>18550</div>
+                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                        <ul>
+                            <li>Paquete de 10000 créditos</li>
+
+                        </ul>
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
             </div>
             </section>
@@ -299,20 +387,18 @@
 
             {{--Inicia modal de contacto--}}
 
-        <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Launch static backdrop modal
-            </button>
+
 
             <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Contacto</h5>
+                            <h5 class="modal-title" id="staticBackdropLabel">Comunícate con nosotros y nos pondremos en contacto contigo a la brevedad</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
+                            <h6>Despacho contable Gómez y Asociados pone a tu disposición los siguientes servicios</h6>
                             <div class="list-group">
                                 <a href="#" class="list-group-item list-group-item-action" aria-current="true">
                                     Asesoría contable y fiscal
@@ -329,20 +415,27 @@
                             </div>
 
                             {{--Starts of form --}}
+                           <p> Información de contacto</p>
+                            <p>Los campos marcados con * son obligatorios</p>
                             <form>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" aria-describedby="Jose Hernandez">
+                                </div>
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="telefono" class="form-label">Telefono</label>
+                                    <input type="number" class="form-control" id="telefono" aria-describedby="000 000 0000">
                                 </div>
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Mensaje</label>
+                                    <input type="text" class="form-control" id="mensaje" aria-describedby="Quiero su producto!">
                                 </div>
+
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
 

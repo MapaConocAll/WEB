@@ -55,6 +55,19 @@
     color: #ccc;
     text-decoration: line-through;
 }
+
+/*
+.init{
+    width: 1200px;
+}
+.secu{
+    width: 1000px;
+    margin-left: 1200px;
+    left: -600px;
+
+
+}
+*/
 .btn-buy{
     display: inline-block;
     padding: 8px 40px 10px 40px;
@@ -68,6 +81,8 @@
     transition: 0.3s;
     border: 1px solid #4154f1;
 }
+
+
 .btn-buy:hover {
     background: #4154f1;
     color: #fff;
