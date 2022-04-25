@@ -22,25 +22,29 @@
             }
         </style>
     </head>
-    <body class="antialiased">
-        <div class="container-fluid  col-lg-12 init">
+    <body class="antialiased" >
 
+        <div class="container-fluid col-lg-12 init" >
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid ">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand" href="#">Facturacion</a>
+                        <a class="navbar-brand" href="#">
+                            <img src="{{URL::asset('/img-logos/logo5.jpg')}}" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                            Facturacion
+                        </a>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li class="nav-item ">
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Vision Mision</a>
+                                <a class="nav-link" href="#misionAncla">Vision Mision</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#" tabindex="-1" >Politica de calidad</a>
+                                <a class="nav-link " href="#politicaAncla" tabindex="-1" >Politica de calidad</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="http://factureya.blikon.com/CFDI33FP/Presentacion/Usuario/Ingreso.aspx">Facturacion electronica</a>
@@ -52,8 +56,6 @@
                     </div>
                 </div>
             </nav>
-
-
             <div class="col-lg-10 col-auto secu">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -92,13 +94,19 @@
             </div>
 
 
+{{--Contenido base --}}
+            <h1> Despacho Contable Gómez y Asociados</h1>
+            <p>
+                Somos un despacho fiscal y contable con una visión fresca e innovadora, un despacho sólido preparado para dar soluciones a los problemas que enfrentan tanto personas físicas o morales.
+                Con más de 10 años de experiencia en el ramo fiscal y contable y con la firme finalidad de proporcionar la mejor solución, para cumplir con las nuevas obligaciones fiscales. Estamos comprometidos a proporcionar un mejor servicio de tal manera que agregue un valor a nuestros clientes.
 
+            </p>
             {{--Mision and vision --}}
             <div class="row align-items-md-stretch">
                 <div class="col-md-6">
                     <div class="h-100 p-5 text-white bg-dark rounded-3">
-                        <h2>Mision</h2>
-                        <p>Nuestra misión es ofrecer servicios de calidad y profesional en tiempo y forma, cumpliendo con el marco legal que exige el Servicio de Administración Tributaria – SAT.
+                        <h2 id="misionAncla">Mision</h2>
+                        <p >Nuestra misión es ofrecer servicios de calidad y profesional en tiempo y forma, cumpliendo con el marco legal que exige el Servicio de Administración Tributaria – SAT.
                             Para lograr nuestros objetivos contamos con los recursos tecnológicos de vanguardia y aplicando las mejores estrategias administrativas.
                         </p>
                         <button class="btn btn-outline-light" type="button">Example button</button>
@@ -120,7 +128,7 @@
             {{--Politica --}}
             <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
                 <div class="col-md-6 px-0">
-                    <h1 class="display-4 fst-italic">Política de calidad </h1>
+                    <h1 class="display-4 fst-italic" id="politicaAncla">Política de calidad </h1>
                     <p class="lead my-3"> Despacho Contable Gómez y Asociados buscamos en todo momento mantener una sana relación y con principios éticos y morales con todos nuestros clientes, para nosotros es de vital importancia satisfacer las necesidades de todos nuestros clientes con la mas alta calidad para cumplir con sus compromisos, así como estar al corriente con todas sus obligaciones fiscales requeridos por el Sistema de Administración Tributaria, SAT.</p>
                 </div>
             </div>
@@ -213,16 +221,100 @@
                     podrás generar estos tipos de comprobantes (CFDI's):
                 </h1>
             </div>
-            <div class="row">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                    <li class="list-group-item">A fourth item</li>
-                    <li class="list-group-item">And a fifth one</li>
-                </ul>
+            <div class="row gy-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-box orange">
+                    <i class="ri-discuss-line icon"></i>
+                    <h3>Facturas electrónicas</h3>
+                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-box blue">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Recibo de Honorarios</h3>
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-box orange">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Recibos de Arrendamiento</h3>
+                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-box green">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Recibo de Nómina</h3>
+                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-box red">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Recibo de Pago</h3>
+                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-box purple">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Notas de Créditos</h3>
+                        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-box pink">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Recibo de donativo</h3>
+                        <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-box green">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Cartas Porte</h3>
+                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-box red">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Notas de Crédito</h3>
+                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-box purple">
+                        <i class="ri-discuss-line icon"></i>
+                        <h3>Formato para gasolineras</h3>
+                        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
 
             </div>
+{{--End de a traves--}}
+
             <div class="text-center">
                 <h1 class="h1">Además
                 </h1>
@@ -266,7 +358,7 @@
                             <li>Paquete de 25 créditos</li>
 
                         </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
+                        <a href="#" class="btn-buy">Solicitar una cotización</a>
                     </div>
                 </div>
                 {{--Pla #2 --}}
@@ -436,13 +528,13 @@
                                     <input type="text" class="form-control" id="mensaje" aria-describedby="Quiero su producto!">
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
                             </form>
 
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
                         </div>
                     </div>
                 </div>
@@ -454,25 +546,38 @@
             {{--termina modal de contacto--}}
 
 
+
+
+        </div>
+
             <footer class="footer mt-auto py-3 bg-light">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="row">
-                            <img src="{{URL::asset('/img-logos/logo5.jpg')}}" class="rounded mx-auto d-block" alt="..." style="width: 150px; height:auto;">
+                            <div class="float-start" style="display: inline;">
+                               <a href=""> -Políticas de calidad-</a>
+                                <img src="{{URL::asset('/img-logos/logo5.jpg')}}" alt="..." style="width: 150px; height:auto; display: inline;">
+                            </div>
+                            <div class="float-end" style="display: inline;">
+                                <p>Contáctanos</p>
+                                <p>EMAIL: contabilidad_gomez@outlook.com</p>
+                                <p>TELÉFONOS: Puebla, Pue: 222 402 3341</p>
+                                <p>Orizaba, Ver: 272 228 8012</p>
+                            </div>
+
+
                         </div>
 
-                        <div class="row">
 
-                        </div>
 
                         <div class="row">
+                            <p class="text-center"> Despacho Contable Gómez y Asocias | Visión Fresca e Innovadora</p>
 
                         </div>
                     </div>
                 </div>
             </footer>
 
-        </div>
             </div>
     </body>
 </html>
